@@ -1,7 +1,6 @@
 syntax on
-:set laststatus=2
-:set number
-set clipboard+=unnamed
+set laststatus=2
+set number
 
 let &colorcolumn=join(range(101,101),",")
 highlight ColorColumn ctermbg=235 guibg=#2c2d27

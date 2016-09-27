@@ -13,6 +13,7 @@ set rtp+=~/.vim/bundle/vundle/
 
 " air-line
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
 
 " =================================================================================================
 " Plugins
@@ -24,10 +25,12 @@ Plugin 'VundleVim/Vundle.vim'
 
 " list all plugins that you'd like to install here
 Plugin 'scrooloose/nerdtree'
+Plugin 'kien/ctrlp.vim' " fuzzy find files
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'fugitive.vim'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'edkolev/tmuxline.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -37,6 +40,9 @@ let g:airline_theme='wombat'
 " =================================================================================================
 " key mappings
 " =================================================================================================
+
+" close NERDTree after a file is opened
+let g:NERDTreeQuitOnOpen=0
 map <C-n> :NERDTreeToggle<CR>
 
 let g:NERDTreeDirArrowExpandable = '►'

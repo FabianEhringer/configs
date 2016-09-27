@@ -24,6 +24,7 @@ Plugin 'VundleVim/Vundle.vim'
 " list all plugins that you'd like to install here
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
+Plugin 'fugitive.vim'
 
 call vundle#end()
 filetype plugin indent on

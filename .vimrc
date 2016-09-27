@@ -47,3 +47,5 @@ map <C-n> :NERDTreeToggle<CR>
 
 let g:NERDTreeDirArrowExpandable = '►'
 let g:NERDTreeDirArrowCollapsible = '▼'
+
+nmap <F8> :TagbarToggle<CR>

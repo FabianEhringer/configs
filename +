@@ -6,7 +6,7 @@ let &colorcolumn=join(range(101,101),",")
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 let &colorcolumn="100,".join(range(131,999),",")
 
-set nocompatible
+set nocompatible  
 set backspace=2
 filetype off
 set rtp+=~/.vim/bundle/vundle/

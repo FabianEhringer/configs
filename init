@@ -9,3 +9,8 @@ vim +PluginInstall +qall
 # Tmux
 rm ~/.tmux.conf
 ln -s ~/configs/.tmux.conf ~/.tmux.conf
+
+# Zsh
+rm ~/.zshrc
+ln -s ~/configs/.zshrc ~/.zshrc
+

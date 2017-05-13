@@ -30,7 +30,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'fugitive.vim'
 Plugin 'flazz/vim-colorschemes'
-Plugin 'edkolev/tmuxline.vim'
+" Plugin 'edkolev/tmuxline.vim'
 Plugin 'majutsushi/tagbar'
 
 call vundle#end()

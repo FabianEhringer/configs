@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [ "$(uname)" == "Darwin" ]; then
+	reattach-to-user-namespace pbcopy
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+	xclip -sel clip -i
+elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW32_NT" ]; then
+	echo Win
+fi

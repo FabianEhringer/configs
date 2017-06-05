@@ -3697,7 +3697,7 @@ zrclocal
 #@# split functions-search 8
 
 plugins=(git svn)
-alias 2sem='~/Dropbox/Daten/TUM/2-semester'
+alias 6sem='~/Dropbox/Daten/tum/6-semester'
 
 ## END OF FILE #################################################################
 # vim:filetype=zsh foldmethod=marker autoindent expandtab shiftwidth=4

@@ -30,6 +30,8 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'fugitive.vim'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 " Plugin 'edkolev/tmuxline.vim'
 Plugin 'majutsushi/tagbar'
 
@@ -37,6 +39,18 @@ call vundle#end()
 filetype plugin indent on
 colorscheme badwolf
 let g:airline_theme='wombat'
+
+" =================================================================================================
+" Ultisnips
+" =================================================================================================
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" =================================================================================================
+" Tabstops
+" =================================================================================================
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 " =================================================================================================
 " key mappings

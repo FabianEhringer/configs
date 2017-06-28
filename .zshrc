@@ -3705,5 +3705,4 @@ alias 6sem='~/Dropbox/Daten/tum/6-semester'
 # mode: sh
 # End:
 
-# OPAM configuration
-. /home/fabian/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+source ~/.profile

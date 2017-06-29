@@ -3704,5 +3704,3 @@ alias 6sem='~/Dropbox/Daten/tum/6-semester'
 # Local variables:
 # mode: sh
 # End:
-
-source ~/.profile
